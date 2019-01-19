@@ -5,7 +5,7 @@
 //  Created by user on 1/18/19.
 //  Copyright © 2019 Alphonso Sensley II. All rights reserved.
 //
-
+//Variables
 #import "ViewController.h"
 
 @interface ViewController ()
@@ -16,7 +16,26 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    NSString *productTitle = @"Bouncy Balls";
+    NSString *manufacturer = @"Acme";
+    int quantity = 144;
+    float price = 19.99;
+    double unitPrice = price/quantity;
+    
+    
+    //Trying to add a primitive type to an object does not work
+    // NSArray *priceArray = @[unitPrice];
+    
+    //must first cast primitive type into an object like the two ways below
+    NSNumber *unitPriceObject = [NSNumber numberWithDouble:unitPrice];
+    NSArray *priceArray = @[@(unitPrice)];
+    
+    
+    NSString *blurb = [NSString stringWithFormat:@"You have selected %@, made by %@. %@ come in quantity of %i, for price of %f and a unit price of %f.", productTitle, manufacturer, productTitle, quantity, price, unitPrice];
+    
+    NSLog(blurb);
+    
+    
 }
 
 
