@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		891C217D21FBD61300A0AADD /* Animal.m in Sources */ = {isa = PBXBuildFile; fileRef = 891C217C21FBD61300A0AADD /* Animal.m */; };
 		8986116321F29859000784D0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8986116221F29859000784D0 /* AppDelegate.m */; };
 		8986116621F29859000784D0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8986116521F29859000784D0 /* ViewController.m */; };
 		8986116921F29859000784D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8986116721F29859000784D0 /* Main.storyboard */; };
@@ -16,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		891C217B21FBD61300A0AADD /* Animal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Animal.h; sourceTree = "<group>"; };
+		891C217C21FBD61300A0AADD /* Animal.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Animal.m; sourceTree = "<group>"; };
 		8986115E21F29859000784D0 /* iOS Objective-C.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS Objective-C.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8986116121F29859000784D0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8986116221F29859000784D0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -60,6 +63,8 @@
 			children = (
 				8986116121F29859000784D0 /* AppDelegate.h */,
 				8986116221F29859000784D0 /* AppDelegate.m */,
+				891C217B21FBD61300A0AADD /* Animal.h */,
+				891C217C21FBD61300A0AADD /* Animal.m */,
 				8986116421F29859000784D0 /* ViewController.h */,
 				8986116521F29859000784D0 /* ViewController.m */,
 				8986116721F29859000784D0 /* Main.storyboard */,
@@ -142,6 +147,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8986116621F29859000784D0 /* ViewController.m in Sources */,
+				891C217D21FBD61300A0AADD /* Animal.m in Sources */,
 				8986117121F2985C000784D0 /* main.m in Sources */,
 				8986116321F29859000784D0 /* AppDelegate.m in Sources */,
 			);

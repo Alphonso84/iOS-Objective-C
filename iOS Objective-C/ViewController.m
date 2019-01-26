@@ -15,7 +15,14 @@
 @implementation ViewController
 
 - (void)viewDidLoad {
+    
     [super viewDidLoad];
+    
+    Animal *liger = [[Animal alloc]init];
+    liger.name = @"Liger";
+    liger.group = Mammal;
+    liger.isExinct = NO;
+    
     NSString *productTitle = @"Bouncy Balls";
     NSString *manufacturer = @"Acme";
     int quantity = 144;
