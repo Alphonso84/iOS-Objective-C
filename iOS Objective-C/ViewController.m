@@ -18,6 +18,7 @@
     
     [super viewDidLoad];
     
+    //alloc allocates memory for the object and init initializes it
     Animal *liger = [[Animal alloc]init];
     liger.name = @"Liger";
     liger.group = Mammal;
