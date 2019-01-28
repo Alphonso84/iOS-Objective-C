@@ -31,6 +31,15 @@
     double unitPrice = price/quantity;
     
     
+    //Control Flow IF/ELSE
+    if (quantity > 100) {
+        price = 25.00;
+    }else {
+        price = 19.99;
+    }
+    
+    
+    
     //Trying to add a primitive type to an object does not work
     // NSArray *priceArray = @[unitPrice];
     
