@@ -6,6 +6,8 @@
 //  Copyright © 2019 Alphonso Sensley II. All rights reserved.
 //
 //Variables
+
+
 #import "ViewController.h"
 
 @interface ViewController ()
@@ -14,9 +16,19 @@
 
 @implementation ViewController
 
+
+
+
 - (void)viewDidLoad {
     
     [super viewDidLoad];
+    
+    enum myEnum {
+        small = 1,
+        medium = 2,
+        large = 3,
+        extraLarger = 4
+    };
     
     //alloc allocates memory for the object and init initializes it
     Animal *liger = [[Animal alloc]init];
@@ -37,8 +49,6 @@
     }else {
         price = 19.99;
     }
-    
-    
     
     //Trying to add a primitive type to an object does not work
     // NSArray *priceArray = @[unitPrice];
